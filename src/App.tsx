@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom";
-import { QueryClientProvider, QueryClient } from "react-query"
 import Characters from "./components/Characters";
 import HomePage from "./components/HomePage";
 import ReactQueryCharacters from "./components/ReactQueryCharacters";

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import ReactQueryCharacters from "./ReactQueryCharacters";
 
 export default function HomePage(): JSX.Element {
     return (

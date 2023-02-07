@@ -1,3 +1,3 @@
-# Vite-React-TypeScript-Starter-Template
+# Learning React Query
 
-React Typescript template using Vite. This template already has prettier and eslint setup as well as github workflows.
+This repository was used to learn React Query for fetching data. Data is fetched from the harry potter API. There are two pages. One components fetches data using the regular way by having different states. The second component fetches data using React Query.

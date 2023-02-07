@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom";
 
 export default function Characters(): JSX.Element {
     const [loading, setLoading] = useState(true);
@@ -22,7 +23,8 @@ export default function Characters(): JSX.Element {
     return (
         <>
             <h1>Normal Page</h1>
-            <li><a href="/">Home Page</a></li>
+            <li><Link to={"/"}>Home Page</Link></li>
+            <li><Link to={"/react-query"}>React Query Page</Link></li>
             <hr />
             {data.map((character) => {
                 return (
